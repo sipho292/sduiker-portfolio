@@ -1,0 +1,134 @@
+body {
+        /* The image used */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.295),rgba(0, 0, 0, 0.432)),url("sethu2.jpg");
+        height: 1000px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: color-dodge ;
+      
+        /* Needed to position the navbar */
+        position: relative;
+      }
+      
+      /* Position the navbar container inside the image */
+      .container {
+        position: absolute;
+        margin: 20px;
+        width: auto;
+      }
+      
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+    align-items: flex-start;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #08fdd8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .hero-text {
+    text-align: center;
+       position: fixed;
+       font-family: sans-serif;
+       top: 15.5%;
+       left: 45%;
+       color: #ddd;
+       font-size:18px;
+  }
+
+  .hero-text2 {
+    text-align: center;
+       position: fixed;
+       font-family: sans-serif;
+       top: 35%;
+       left: 49%;
+       color: #ddd;
+       font-size:18px;
+  }
+
+  .hero-text3 {
+    text-align: center;
+       position: fixed;
+       font-family: sans-serif;
+       top: 65%;
+       left: 45%;
+       color: #ddd;
+       font-size:18px;
+  }
+  
+  body {
+    font-family: 'The Girl Next Door';font-size: 22px;
+}
+  
+  
+.para1{ 
+  font-size:18px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+
+ .container{
+      width: 30%;
+      height: 70%;
+      position: fixed;
+      top: 10.5%;
+      left: 3%;
+    }
+
+h1{
+  text-align: center;
+  position: fixed;
+  top: 4%;
+  left: 50%;
+  color:#08fdd8;
+  font-size: 50px;
+}
+
+h2{
+  text-align: center;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  color:#08fdd8;
+  font-size: 50px;
+}
+
+h3{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  color:#08fdd8;
+  font-size: 50px;
+}
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+   }
+
+  ; 
